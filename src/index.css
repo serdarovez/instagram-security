@@ -1,0 +1,166 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.login-container {
+  width: 350px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.logo {
+  font-family: "Grand Hotel", cursive;
+  font-size: 40px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.logo img {
+  object-fit: cover;
+  width: 70%;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 5px 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(76 181 249);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px 50px 12px 12px; /* Add padding for the button */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.success-message {
+  font-size: 18px;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+.toggle-button {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background-color: #dbdbdb;
+}
+
+.or-text {
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #8e8e8e;
+}
+
+.facebook-login {
+  background: none;
+  border: none;
+  color: #385185;
+  font-weight: bold;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.forgot-password {
+  color: #00376b;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.signup-container {
+  margin-top: 20px;
+}
+
+.signup-link {
+  color: #0095f6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.get-app {
+  margin-top: 20px;
+}
+
+.app-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.app-icon {
+  width: 120px;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 12px;
+  color: #8e8e8e;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  text-decoration: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.footer-links li a {
+  text-decoration: none;
+  color: #737373;
+}
+
+.footer-text {
+  font-size: 10px;
+}
