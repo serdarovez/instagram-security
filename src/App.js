@@ -21,7 +21,7 @@ const InstagramLogin = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (password !== confirmPassword) {
+    if (password !== confirmPassword || password !== '') {
       alert("Passwords do not match!");
       return;
     }
